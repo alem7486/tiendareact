@@ -4,7 +4,7 @@ const Cart = ({ vaciarCarrito, cartItems, isOpen, onClose, borrarProducto }) => 
   return (
     <div className={`cart-drawer ${isOpen ? 'open' : ''}`}>
       <div className="cart-header">
-        <h2>Carrito de Compras</h2>
+        <h2>Carrito de compras</h2>
         <button onClick={onClose} className="close-button">✕</button>
       </div>
       <div className="cart-content">
@@ -30,3 +30,4 @@ const Cart = ({ vaciarCarrito, cartItems, isOpen, onClose, borrarProducto }) => 
 };
 
 export default Cart;
+

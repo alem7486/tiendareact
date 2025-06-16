@@ -6,16 +6,19 @@ import Cart from './Cart'
 const Nav = ({vaciarCarrito, cartCount,cartItems, isCartOpen, setCartOpen,borrarProducto }) => {
 
   return (
-    <nav style={{ backgroundColor: '#333', color: "white", padding: "10px" }}>
-      <ul>
-        <img src={logo} />
+    <nav style={{color: "black"}}>
+     <ul style={{ paddingTop: "5px", height: 100}}>
+      
         <li><a href='#'>Inicio</a></li>
-        <li>Acerca de</li>
+        <li>Instrumentos</li>
+        <li>¿Quiénes somos?</li>
         <li>Contacto</li>
+
         <li>Carrito: {cartCount}</li>
         <li className='cartNav'>
           <button className='btnCart' onClick={() => setCartOpen(true)}><i className="fa-solid fa-cart-shopping"></i></button>
           <Cart vaciarCarrito={vaciarCarrito} cartItems={cartItems} isOpen={isCartOpen} onClose={() => setCartOpen(false)} borrarProducto={borrarProducto} />
+
         </li>
       </ul>
     </nav>

@@ -1,14 +1,14 @@
 import React from 'react'
 
+
 const Main = ({data}) => {
-  // console.log(data); 
+  // console.log(data);
   
   return (
     <main className='main'>
         <h2>Bienvenidos</h2>
-        <p>Tenemos la mejor tecnología en música.</p>
-        <img style={{width:'50%'}} src='https://web-assets.esetstatic.com/tn/-x700/wls/2024/11-2024/ai-music-creation-authorship.jpeg'
-        />
+      
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, error labore architecto temporibus animi ipsam magnam mollitia cum. Culpa quae molestias deleniti, voluptates recusandae eligendi dolorum consequatur non repellendus reprehenderit! rweasgtkmhpr,t,epgtomptqmeq</p>
     </main>
   )
 }
