@@ -1,13 +1,16 @@
-import React from 'react';
+import React from "react";
 
-function Saludo({name}){
 
-    return(
-        <div>
-            <h1>Hola {name}, te damos la bienvenida.</h1>
-            <p>Este es el componente saludo</p>
-        </div>
+function Saludo({name}) {
+
+    // console.log(props);
+    // const { nombre } = props
+
+    return (
+      <div>
+        <h1>Hola {name} y bienvenido a la clase de consulta</h1>
+      </div>
     )
-}
+  }
 
-export default Saludo
+  export default Saludo

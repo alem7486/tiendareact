@@ -1,14 +1,16 @@
 import React from 'react'
 
-const Main = () => {
+const Main = ({data}) => {
+  // console.log(data); 
+  
   return (
- 
-    <main> 
-        <h2>Contenido principal</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam labore magni soluta blanditiis, asperiores tempore! Magni sunt perspiciatis itaque, deleniti laborum deserunt aut fugit voluptatum accusamus eius vitae, id neque.</p>
+    <main className='main'>
+        <h2>Bienvenidos</h2>
+        <p>Tenemos la mejor tecnología en música.</p>
+        <img style={{width:'50%'}} src='https://web-assets.esetstatic.com/tn/-x700/wls/2024/11-2024/ai-music-creation-authorship.jpeg'
+        />
     </main>
   )
 }
 
 export default Main
-

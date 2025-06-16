@@ -1,13 +1,16 @@
 import React from "react";
 
-const ListaProductos = ({productos}) => {
+const ListaProductos = ({ productos }) => {
     return (
         <ol>
-          {productos.map((producto,index) => (
-            <li key={index}>{producto}</li>
-          ))}
+            {
+           productos.map((producto,index) => (
+                <li key={index}>
+                    {producto}
+                </li>
+           ))}
         </ol>
-    )
-}
+    );
+};
 
 export default ListaProductos;

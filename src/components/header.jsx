@@ -1,11 +1,15 @@
 import React from 'react'
 
 const Header = () => {
+
+    let estilos = {backgroundColor: "#4f0df3", padding: "4px", textAlign: "center", color: "white"}
+
   return (
-    <div>
-      <h1>Bienvenidos a la tienda</h1>
-    </div>
+    <header style={estilos}>
+        <h1>App React</h1>
+    </header>
   )
 }
 
 export default Header
+

@@ -1,0 +1,32 @@
+header{
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #610404;
+}
+
+
+.tarjeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  padding: 20px;
+}
+
+ul{
+  list-style: none;
+  display: flex; 
+  justify-content: space-around;
+  margin: 0;
+  align-items: center;
+}
+
